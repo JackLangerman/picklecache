@@ -17,7 +17,6 @@ def picklecache(func):
 
 
     Example:
-        >>> from utils.misc import picklecache
         >>> @picklecache
         ... def fib(n):
         ...     def fibr(n):
